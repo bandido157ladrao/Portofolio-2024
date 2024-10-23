@@ -20,7 +20,23 @@ body {
     color: var(--preto);
 }
 
+.img.thumbnail{
+    border: 2px solid var(--cinza-claro)
+}
+
 h1, h3 {
     font-family: var(--fonte-principal);
     color: var(--preto);
+}
+
+.card{
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+    
+}
+
+.footer-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--branco);
 }
