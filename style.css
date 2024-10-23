@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Varela+Round&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --fonte-principal: "Spicy Rice", serif;
     --fonte-secundario: "Varela Round", sans-serif;
-    --vermelho-cereja: #780000ff;
-    --vermelho-fogo: #c1121fff;
-    --mamao: rgb(255, 241, 86);
-    --azul-prússia: #003049ff;
-    --azul-bebe: #669bbcff;
+    --preto: #000000;
+    --cinza-escuro: #333333;
+    --cinza-claro: #cccccc;
     --branco: #ffffff;
-   
 }
 
-body{
+body {
     font-family: var(--fonte-principal);
-    background-color: var(--mamao);
+    background-color: var(--cinza-claro);
+    color: var(--preto);
 }
 
-h1,h3{
+h1, h3 {
     font-family: var(--fonte-principal);
+    color: var(--preto);
 }
