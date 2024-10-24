@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
 
 * {
     margin: 0;
@@ -6,37 +6,57 @@
 }
 
 :root {
-    --fonte-principal: "Spicy Rice", serif;
-    --fonte-secundario: "Varela Round", sans-serif;
+    --fonte-principal: 'Playfair Display', serif;
+    --fonte-secundario: 'Roboto', sans-serif;
     --preto: #000000;
-    --cinza-escuro: #333333;
-    --cinza-claro: #cccccc;
+    --cinza-escuro: #1c1c1c;
+    --cinza-claro: #e5e5e5;
     --branco: #ffffff;
+    --dourado: #c5a880;
 }
 
 body {
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-secundario);
     background-color: var(--cinza-claro);
     color: var(--preto);
 }
 
-.img.thumbnail{
-    border: 2px solid var(--cinza-claro)
+.img.thumbnail {
+    border: 2px solid var(--cinza-escuro);
 }
 
 h1, h3 {
     font-family: var(--fonte-principal);
-    color: var(--preto);
+    color: var(--dourado);
 }
 
-.card{
-    background-color: var(--cinza-escuro);
+.card {
+    background-color: var(--preto);
     color: var(--branco);
-    
+    border: 1px solid var(--dourado);
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.footer-link{
+.footer-link {
     text-decoration: none;
     font-size: 1.2em;
-    color: var(--branco);
+    color: var(--dourado);
+    border-bottom: 2px solid var(--dourado);
+    padding-bottom: 0.2em;
+}
+.botao-saiba-mais {
+    background-color: var(--dourado);
+    color: var(--preto);
+    font-family: var(--fonte-secundario);
+    border: none;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao-saiba-mais:hover {
+    background-color: var(--cinza-escuro);
+    color: var(--dourado);
 }
